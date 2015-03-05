@@ -31,3 +31,5 @@ print(len(instructions))
 
 for i in range(len(instructions)):
   print(instructions[i])
+
+print("")
