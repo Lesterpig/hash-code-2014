@@ -33,9 +33,9 @@ for x in range(0, int(instru_n)):
   else:
     image[coord_x][coord_y] = "."
 
-
+print(str(rows) + " " + str(cols))
 for x in range(0, rows):
-  print("")
   for y in range(0, cols):
     #print("x -> "+ str(x) + " // y -> " + str(y))
     sys.stdout.write(image[x][y])
+  print("")
